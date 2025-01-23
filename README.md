@@ -23,3 +23,1301 @@ and the examples are licensed under the BSD License
 Thanks for using Tom.
 
 The Tom Project
+
+------------------------------------
+IN TERMUX
+
+~ $ diagtool tree
+
+GREEN = enabled by default
+YELLOW = disabled by default
+RED = unimplemented (accepted for GCC compatibi
+lity)
+
+-W
+  -Wextra
+    -Wdeprecated-copy
+      -Wdeprecated-copy-with-user-provided-copy
+    -Wmissing-field-initializers
+      -Wmissing-designated-field-initializers
+    -Wignored-qualifiers
+      -Wignored-reference-qualifiers
+    -Winitializer-overrides
+    -Wsemicolon-before-method-body
+    -Wmissing-method-return-type
+    -Wsign-compare
+    -Wunused-parameter
+    -Wunused-but-set-parameter
+    -Wnull-pointer-arithmetic
+      -Wgnu-null-pointer-arithmetic
+    -Wnull-pointer-subtraction
+    -Wempty-init-stmt
+    -Wstring-concatenation
+    -Wfuse-ld-path
+    -Wcast-function-type-mismatch
+-W#pragma-messages
+-WCFString-literal
+-WCL4
+  -Wall
+    -Wmost
+      -Warray-parameter
+      -Wbool-operation
+        -Wbitwise-instead-of-logical
+      -Wchar-subscripts
+      -Wcomment
+      -Wdelete-non-virtual-dtor
+        -Wdelete-non-abstract-non-virtual-dtor
+        -Wdelete-abstract-non-virtual-dtor
+      -Wformat
+        -Wformat-extra-args
+        -Wformat-zero-length
+        -Wnonnull
+        -Wformat-security
+        -Wformat-y2k
+        -Wformat-invalid-specifier
+        -Wformat-insufficient-args
+        -Wformat-overflow
+          -Wformat-overflow-non-kprintf
+        -Wformat-truncation
+          -Wformat-truncation-non-kprintf
+      -Wfor-loop-analysis
+      -Wframe-address
+      -Wimplicit
+        -Wimplicit-function-declaration
+        -Wimplicit-int
+      -Winfinite-recursion
+      -Wint-in-bool-context
+      -Wmismatched-tags
+      -Wmissing-braces
+      -Wmove
+        -Wpessimizing-move
+        -Wredundant-move
+        -Wreturn-std-move
+        -Wself-move
+      -Wmultichar
+      -Wrange-loop-construct
+      -Wreorder
+        -Wreorder-ctor
+        -Wreorder-init-list
+      -Wreturn-type
+        -Wreturn-type-c-linkage
+        -Wreturn-mismatch
+      -Wself-assign
+        -Wself-assign-overloaded
+        -Wself-assign-field
+      -Wself-move
+      -Wsizeof-array-argument
+      -Wsizeof-array-decay
+      -Wstring-plus-int
+      -Wtautological-compare
+        -Wtautological-constant-compare
+          -Wtautological-constant-out-of-range-
+compare
+        -Wtautological-pointer-compare
+        -Wtautological-overlap-compare
+        -Wtautological-bitwise-compare
+        -Wtautological-undefined-compare
+        -Wtautological-objc-bool-compare
+        -Wtautological-negation-compare
+      -Wtrigraphs
+      -Wuninitialized
+        -Wsometimes-uninitialized
+        -Wstatic-self-init
+        -Wuninitialized-const-reference
+      -Wunknown-pragmas
+      -Wunused
+        -Wunused-argument
+        -Wunused-function
+          -Wunneeded-internal-declaration
+        -Wunused-label
+        -Wunused-private-field
+        -Wunused-lambda-capture
+        -Wunused-local-typedef
+        -Wunused-value
+          -Wunused-comparison
+          -Wunused-result
+          -Wunevaluated-expression
+            -Wpotentially-evaluated-expression
+        -Wunused-variable
+          -Wunused-const-variable
+        -Wunused-but-set-variable
+        -Wunused-property-ivar
+      -Wvolatile-register-var
+      -Wobjc-missing-super-calls
+      -Wobjc-designated-initializers
+      -Wobjc-flexible-array
+      -Woverloaded-virtual
+      -Wprivate-extern
+      -Wcast-of-sel-type
+      -Wextern-c-compat
+      -Wuser-defined-warnings
+    -Wparentheses
+      -Wlogical-op-parentheses
+      -Wlogical-not-parentheses
+      -Wbitwise-conditional-parentheses
+      -Wbitwise-op-parentheses
+      -Wshift-op-parentheses
+      -Woverloaded-shift-op-parentheses
+      -Wparentheses-equality
+      -Wdangling-else
+    -Wswitch
+    -Wswitch-bool
+    -Wmisleading-indentation
+    -Wpacked-non-pod
+    -Wvla-cxx-extension
+      -Wvla-extension-static-assert
+  -Wextra
+    -Wdeprecated-copy
+      -Wdeprecated-copy-with-user-provided-copy
+    -Wmissing-field-initializers
+      -Wmissing-designated-field-initializers
+    -Wignored-qualifiers
+      -Wignored-reference-qualifiers
+    -Winitializer-overrides
+    -Wsemicolon-before-method-body
+    -Wmissing-method-return-type
+    -Wsign-compare
+    -Wunused-parameter
+    -Wunused-but-set-parameter
+    -Wnull-pointer-arithmetic
+      -Wgnu-null-pointer-arithmetic
+    -Wnull-pointer-subtraction
+    -Wempty-init-stmt
+    -Wstring-concatenation
+    -Wfuse-ld-path
+    -Wcast-function-type-mismatch
+-WIndependentClass-attribute
+-WNSObject-attribute
+-Waarch64-sme-attributes
+-Wabi
+-Wabsolute-value
+-Wabstract-final-class
+-Wabstract-vbase-init
+-Waddress
+  -Wpointer-bool-conversion
+  -Wstring-compare
+  -Wtautological-pointer-compare
+-Waddress-of-packed-member
+-Waddress-of-temporary
+-Waggregate-return
+-Waix-compat
+-Walias-template-in-declaration-name
+-Walign-mismatch
+-Walloca
+-Walloca-with-align-alignof
+-Wambiguous-delete
+-Wambiguous-ellipsis
+-Wambiguous-macro
+-Wambiguous-member-template
+-Wambiguous-reversed-operator
+-Wanalyzer-incompatible-plugin
+-Wandroid-unversioned-fallback
+-Wanon-enum-enum-conversion
+  -Wdeprecated-anon-enum-enum-conversion
+-Wanonymous-pack-parens
+-Wapinotes
+-Warc
+  -Warc-unsafe-retained-assign
+  -Warc-retain-cycles
+  -Warc-non-pod-memaccess
+-Warc-bridge-casts-disallowed-in-nonarc
+-Warc-performSelector-leaks
+-Warc-repeated-use-of-weak
+  -Warc-maybe-repeated-use-of-weak
+-Wargument-outside-range
+-Wargument-undefined-behaviour
+-Warm-interrupt-vfp-clobber
+-Warray-bounds
+-Warray-bounds-pointer-arithmetic
+-Wasm
+  -Wasm-operand-widths
+-Wassign-enum
+-Wassume
+-Wat-protocol
+-Watimport-in-framework-header
+-Watomic-access
+-Watomic-alignment
+-Watomic-implicit-seq-cst
+-Watomic-memory-ordering
+-Watomic-properties
+  -Wimplicit-atomic-properties
+  -Wcustom-atomic-properties
+-Watomic-property-with-user-defined-accessor
+-Wattribute-packed-for-bitfield
+-Wattribute-warning
+-Wattributes
+  -Wunknown-attributes
+  -Wignored-attributes
+-Wauto-disable-vptr-sanitizer
+-Wauto-import
+-Wauto-storage-class
+-Wauto-var-id
+-Wavailability
+-Wavr-rtlib-linking-quirks
+-Wbackend-plugin
+-Wbackslash-newline-escape
+-Wbad-function-cast
+-Wbinary-literal
+  -Wc++14-binary-literal
+  -Wc++98-c++11-compat-binary-literal
+-Wbind-to-temporary-copy
+  -Wc++98-compat-bind-to-temporary-copy
+-Wbinding-in-condition
+-Wbitfield-width
+-Wblock-capture-autoreleasing
+-Wbool-conversions
+  -Wbool-conversion
+    -Wpointer-bool-conversion
+    -Wundefined-bool-conversion
+-Wbounds-safety-counted-by-elt-type-unknown-siz
+e
+-Wbraced-scalar-init
+-Wbranch-protection
+-Wbridge-cast
+-Wbuiltin-assume-aligned-alignment
+-Wbuiltin-memcpy-chk-size
+-Wbuiltin-requires-header
+-Wc++-compat
+-Wc++0x-compat
+  -Wc++11-compat
+    -Wc++11-narrowing
+      -Wc++11-narrowing-const-reference
+    -Wc++11-compat-reserved-user-defined-litera
+l
+    -Wc++11-compat-deprecated-writable-strings
+    -Wpre-c++14-compat
+    -Wpre-c++17-compat
+    -Wpre-c++20-compat
+    -Wpre-c++23-compat
+    -Wpre-c++26-compat
+-Wc++0x-extensions
+  -Wc++11-extensions
+    -Wc++11-extra-semi
+    -Wc++11-inline-namespace
+    -Wc++11-long-long
+-Wc++0x-narrowing
+  -Wc++11-narrowing
+    -Wc++11-narrowing-const-reference
+-Wc++11-compat-pedantic
+  -Wc++11-compat
+    -Wc++11-narrowing
+      -Wc++11-narrowing-const-reference
+    -Wc++11-compat-reserved-user-defined-litera
+l
+    -Wc++11-compat-deprecated-writable-strings
+    -Wpre-c++14-compat
+    -Wpre-c++17-compat
+    -Wpre-c++20-compat
+    -Wpre-c++23-compat
+    -Wpre-c++26-compat
+  -Wpre-c++14-compat-pedantic
+    -Wpre-c++14-compat
+    -Wc++98-c++11-compat-binary-literal
+  -Wpre-c++17-compat-pedantic
+    -Wpre-c++17-compat
+  -Wpre-c++20-compat-pedantic
+    -Wpre-c++20-compat
+  -Wpre-c++23-compat-pedantic
+    -Wpre-c++23-compat
+  -Wpre-c++26-compat-pedantic
+    -Wpre-c++26-compat
+-Wc++14-compat-pedantic
+  -Wc++14-compat
+    -Wpre-c++17-compat
+    -Wpre-c++20-compat
+    -Wpre-c++23-compat
+    -Wpre-c++26-compat
+  -Wpre-c++17-compat-pedantic
+    -Wpre-c++17-compat
+  -Wpre-c++20-compat-pedantic
+    -Wpre-c++20-compat
+  -Wpre-c++23-compat-pedantic
+    -Wpre-c++23-compat
+  -Wpre-c++26-compat-pedantic
+    -Wpre-c++26-compat
+-Wc++17-compat-pedantic
+  -Wc++17-compat
+    -Wdeprecated-register
+    -Wdeprecated-increment-bool
+    -Wc++17-compat-mangling
+    -Wpre-c++20-compat
+    -Wpre-c++23-compat
+    -Wpre-c++26-compat
+  -Wpre-c++20-compat-pedantic
+    -Wpre-c++20-compat
+  -Wpre-c++23-compat-pedantic
+    -Wpre-c++23-compat
+  -Wpre-c++26-compat-pedantic
+    -Wpre-c++26-compat
+-Wc++1y-extensions
+  -Wc++14-extensions
+    -Wc++14-binary-literal
+    -Wc++14-attribute-extensions
+-Wc++1z-compat
+  -Wc++17-compat
+    -Wdeprecated-register
+    -Wdeprecated-increment-bool
+    -Wc++17-compat-mangling
+    -Wpre-c++20-compat
+    -Wpre-c++23-compat
+    -Wpre-c++26-compat
+-Wc++1z-compat-mangling
+  -Wc++17-compat-mangling
+-Wc++1z-extensions
+  -Wc++17-extensions
+    -Wc++17-attribute-extensions
+-Wc++23-compat
+  -Wpre-c++26-compat
+-Wc++2a-compat
+  -Wc++20-compat
+    -Wpre-c++23-compat
+    -Wpre-c++26-compat
+-Wc++2a-compat-pedantic
+  -Wc++20-compat-pedantic
+    -Wc++20-compat
+      -Wpre-c++23-compat
+      -Wpre-c++26-compat
+    -Wpre-c++23-compat-pedantic
+      -Wpre-c++23-compat
+    -Wpre-c++26-compat-pedantic
+      -Wpre-c++26-compat
+-Wc++2a-extensions
+  -Wc++20-extensions
+    -Wc++20-designator
+    -Wc++20-attribute-extensions
+-Wc++2b-extensions
+  -Wc++23-extensions
+    -Wc++23-lambda-attributes
+-Wc++2c-compat
+  -Wdelete-incomplete
+-Wc++2c-extensions
+  -Wc++26-extensions
+-Wc++98-c++11-c++14-c++17-compat
+  -Wpre-c++20-compat
+-Wc++98-c++11-c++14-c++17-compat-pedantic
+  -Wpre-c++20-compat-pedantic
+    -Wpre-c++20-compat
+-Wc++98-c++11-c++14-compat
+  -Wpre-c++17-compat
+-Wc++98-c++11-c++14-compat-pedantic
+  -Wpre-c++17-compat-pedantic
+    -Wpre-c++17-compat
+-Wc++98-c++11-compat
+  -Wpre-c++14-compat
+-Wc++98-c++11-compat-pedantic
+  -Wpre-c++14-compat-pedantic
+    -Wpre-c++14-compat
+    -Wc++98-c++11-compat-binary-literal
+-Wc++98-compat-pedantic
+  -Wc++98-compat
+    -Wc++98-compat-local-type-template-args
+    -Wc++98-compat-unnamed-type-template-args
+    -Wpre-c++14-compat
+    -Wpre-c++17-compat
+    -Wpre-c++20-compat
+    -Wpre-c++23-compat
+    -Wpre-c++26-compat
+  -Wc++98-compat-bind-to-temporary-copy
+  -Wc++98-compat-extra-semi
+  -Wpre-c++14-compat-pedantic
+    -Wpre-c++14-compat
+    -Wc++98-c++11-compat-binary-literal
+  -Wpre-c++17-compat-pedantic
+    -Wpre-c++17-compat
+  -Wpre-c++20-compat-pedantic
+    -Wpre-c++20-compat
+  -Wpre-c++23-compat-pedantic
+    -Wpre-c++23-compat
+  -Wpre-c++26-compat-pedantic
+    -Wpre-c++26-compat
+-Wc2x-compat
+  -Wc23-compat
+-Wc2x-extensions
+  -Wc23-extensions
+-Wc99-compat
+-Wc99-extensions
+  -Wc99-designator
+    -Wc++20-designator
+-Wcall-to-pure-virtual-from-ctor-dtor
+-Wcalled-once-parameter
+  -Wcompletion-handler
+-Wcast-align
+-Wcast-calling-convention
+-Wcast-function-type
+  -Wcast-function-type-strict
+  -Wcast-function-type-mismatch
+-Wcast-qual
+-Wcast-qual-unrelated
+-Wchar-align
+-Wclang-cl-pch
+-Wclass-conversion
+-Wclass-varargs
+  -Wnon-pod-varargs
+-Wcmse-union-leak
+-Wcomma
+-Wcomments
+  -Wcomment
+-Wcompare-distinct-pointer-types
+-Wcompound-token-split
+  -Wcompound-token-split-by-macro
+  -Wcompound-token-split-by-space
+-Wconditional-type-mismatch
+-Wconditional-uninitialized
+-Wconfig-macros
+-Wconstant-evaluated
+-Wconstant-logical-operand
+-Wconstexpr-not-const
+-Wconsumed
+-Wconversion-null
+  -Wnull-conversion
+-Wcoroutine
+  -Wcoroutine-missing-unhandled-exception
+  -Wdeprecated-coroutine
+  -Walways-inline-coroutine
+  -Wcoro-non-aligned-allocation-function
+-Wcovered-switch-default
+-Wcpp
+  -W#warnings
+-Wcstring-format-directive
+-Wctad-maybe-unsupported
+-Wctor-dtor-privacy
+-Wctu
+-Wcuda-compat
+-Wcxx-attribute-extension
+-Wdangling
+  -Wdangling-assignment
+  -Wdangling-assignment-gsl
+  -Wdangling-field
+  -Wdangling-initializer-list
+  -Wdangling-gsl
+  -Wreturn-stack-address
+-Wdarwin-sdk-settings
+-Wdate-time
+-Wdealloc-in-category
+-Wdebug-compression-unavailable
+-Wdeclaration-after-statement
+-Wdefaulted-function-deleted
+-Wdelayed-template-parsing-in-cxx20
+-Wdelegating-ctor-cycles
+-Wdeprecate-lax-vec-conv-all
+-Wdeprecated
+  -Wdeprecated-anon-enum-enum-conversion
+  -Wdeprecated-array-compare
+  -Wdeprecated-attributes
+  -Wdeprecated-comma-subscript
+  -Wdeprecated-copy
+    -Wdeprecated-copy-with-user-provided-copy
+  -Wdeprecated-copy-with-dtor
+    -Wdeprecated-copy-with-user-provided-dtor
+  -Wdeprecated-declarations
+  -Wdeprecated-dynamic-exception-spec
+  -Wdeprecated-enum-compare
+  -Wdeprecated-enum-compare-conditional
+  -Wdeprecated-enum-enum-conversion
+  -Wdeprecated-enum-float-conversion
+  -Wdeprecated-builtins
+  -Wdeprecated-increment-bool
+  -Wdeprecated-literal-operator
+  -Wdeprecated-pragma
+  -Wdeprecated-register
+  -Wdeprecated-no-relaxed-template-template-arg
+s
+  -Wdeprecated-ofast
+  -Wdeprecated-this-capture
+  -Wdeprecated-type
+  -Wdeprecated-volatile
+  -Wdeprecated-writable-strings
+    -Wc++11-compat-deprecated-writable-strings
+  -Wdeprecated-redundant-constexpr-static-def
+-Wdeprecated-altivec-src-compat
+-Wdeprecated-copy-dtor
+  -Wdeprecated-copy-with-dtor
+    -Wdeprecated-copy-with-user-provided-dtor
+-Wdeprecated-implementations
+-Wdeprecated-module-dot-map
+-Wdeprecated-objc-isa-usage
+-Wdeprecated-objc-pointer-introspection
+  -Wdeprecated-objc-pointer-introspection-perfo
+rmSelector
+-Wdirect-ivar-access
+-Wdisabled-macro-expansion
+-Wdisabled-optimization
+-Wdiscard-qual
+-Wdistributed-object-modifiers
+-Wdiv-by-zero
+  -Wdivision-by-zero
+-Wdll-attribute-on-redeclaration
+-Wdllexport-explicit-instantiation-decl
+-Wdllimport-static-field-def
+-Wdocumentation
+  -Wdocumentation-html
+  -Wdocumentation-deprecated-sync
+-Wdocumentation-pedantic
+  -Wdocumentation-unknown-command
+-Wdouble-promotion
+-Wdtor-name
+-Wdtor-typedef
+-Wduplicate-decl-specifier
+-Wduplicate-enum
+-Wduplicate-method-arg
+-Wduplicate-method-match
+-Wduplicate-protocol
+-Wdxil-validation
+-Wdynamic-exception-spec
+  -Wdeprecated-dynamic-exception-spec
+-Weager-load-cxx-named-modules
+-Weffc++
+  -Wnon-virtual-dtor
+-Welaborated-enum-base
+-Welaborated-enum-class
+-Wempty-body
+-Wempty-decomposition
+-Wencode-type
+-Wendif-labels
+  -Wextra-tokens
+-Wenum-compare
+  -Wenum-compare-switch
+  -Wdeprecated-enum-compare
+-Wenum-constexpr-conversion
+-Wenum-too-large
+-Wexceptions
+-Wexcess-initializers
+-Wexcessive-regsave
+-Wexit-time-destructors
+-Wexpansion-to-defined
+-Wexperimental-header-units
+-Wexplicit-initialize-call
+-Wexplicit-ownership-type
+-Wexplicit-specialization-storage-class
+-Wexport-unnamed
+-Wextern-initializer
+-Wextra-qualification
+-Wextra-semi
+  -Wc++98-compat-extra-semi
+  -Wc++11-extra-semi
+-Wextra-semi-stmt
+  -Wempty-init-stmt
+-Wextractapi-misuse
+-Wfinal-dtor-non-final-class
+-Wfixed-point-overflow
+-Wflag-enum
+-Wfloat-equal
+-Wformat-non-iso
+-Wformat-pedantic
+-Wformat-signedness
+-Wformat-type-confusion
+-Wformat=2
+  -Wformat-nonliteral
+  -Wformat-security
+  -Wformat-y2k
+-Wfortify-source
+  -Wformat-overflow
+    -Wformat-overflow-non-kprintf
+  -Wformat-truncation
+    -Wformat-truncation-non-kprintf
+-Wfour-char-constants
+-Wframe-larger-than=
+  -Wframe-larger-than
+-Wframework-include-private-from-public
+-Wfree-nonheap-object
+-Wfriend-enum
+-Wfunction-def-in-objc-container
+-Wfunction-effects
+-Wfunction-multiversion
+  -Wtarget-clones-mixed-specifiers
+-Wfuture-compat
+-Wgcc-compat
+-Wglobal-constructors
+-Wglobal-isel
+-Wgnu
+  -Wgnu-alignof-expression
+  -Wgnu-anonymous-struct
+  -Wgnu-auto-type
+  -Wgnu-binary-literal
+  -Wgnu-case-range
+  -Wgnu-complex-integer
+  -Wgnu-compound-literal-initializer
+  -Wgnu-conditional-omitted-operand
+  -Wgnu-designator
+  -Wgnu-empty-struct
+  -Wvla-extension
+    -Wvla-cxx-extension
+      -Wvla-extension-static-assert
+  -Wgnu-flexible-array-initializer
+  -Wgnu-flexible-array-union-member
+  -Wgnu-folding-constant
+  -Wgnu-imaginary-constant
+  -Wgnu-include-next
+  -Wgnu-label-as-value
+  -Wgnu-line-marker
+  -Wgnu-null-pointer-arithmetic
+  -Wgnu-offsetof-extensions
+  -Wgnu-pointer-arith
+  -Wredeclared-class-member
+  -Wgnu-redeclared-enum
+  -Wgnu-statement-expression
+    -Wgnu-statement-expression-from-macro-expan
+sion
+  -Wgnu-static-float-init
+  -Wgnu-string-literal-operator-template
+  -Wgnu-union-cast
+  -Wgnu-variable-sized-type-not-at-end
+  -Wzero-length-array
+  -Wgnu-zero-line-directive
+  -Wgnu-zero-variadic-macro-arguments
+-Wgnu-array-member-paren-init
+-Wgnu-empty-initializer
+-Wgnu-inline-cpp-without-extern
+-Wgpu-maybe-wrong-side
+-Wheader-guard
+-Wheader-hygiene
+-Whigher-precision-fp
+-Whip-omp-target-directives
+-Whip-only
+-Whlsl-availability
+-Whlsl-extensions
+-Widiomatic-parentheses
+-Wignored-availability-without-sdk-settings
+-Wignored-gch
+-Wimplicit-conversion-floating-point-to-bool
+-Wimplicit-exception-spec-mismatch
+-Wimplicit-fallthrough
+  -Wimplicit-fallthrough-per-function
+-Wimplicit-fixed-point-conversion
+-Wimplicit-retain-self
+-Wimplicitly-unsigned-literal
+-Wimport
+-Winaccessible-base
+-Winclude-angled-in-module-purview
+-Winclude-next-absolute-path
+-Winclude-next-outside-header
+-Wincompatible-exception-spec
+-Wincompatible-function-pointer-types-strict
+-Wincompatible-library-redeclaration
+-Wincompatible-ms-pragma-section
+-Wincompatible-ms-struct
+-Wincompatible-pointer-types
+  -Wincompatible-pointer-types-discards-qualifi
+ers
+  -Wincompatible-function-pointer-types
+-Wincompatible-property-type
+-Wincompatible-sysroot
+-Wincomplete-framework-module-declaration
+-Wincomplete-implementation
+-Wincomplete-module
+  -Wincomplete-umbrella
+  -Wnon-modular-include-in-module
+    -Wnon-modular-include-in-framework-module
+-Wincomplete-setjmp-declaration
+-Winconsistent-missing-destructor-override
+-Winconsistent-missing-override
+-Wincrement-bool
+  -Wdeprecated-increment-bool
+-Winit-self
+-Winjected-class-name
+-Winline
+-Winline-asm
+-Winline-namespace-reopened-noninline
+-Winline-new-delete
+-Winstallapi-violation
+-Winstantiation-after-specialization
+-Wint-conversions
+  -Wint-conversion
+-Wint-to-pointer-cast
+  -Wint-to-void-pointer-cast
+-Winteger-overflow
+-Winvalid-command-line-argument
+  -Wignored-optimization-argument
+-Winvalid-constexpr
+-Winvalid-feature-combination
+-Winvalid-iboutlet
+-Winvalid-initializer-from-system-header
+-Winvalid-ios-deployment-target
+-Winvalid-no-builtin-names
+-Winvalid-noreturn
+-Winvalid-offsetof
+-Winvalid-or-nonexistent-directory
+-Winvalid-partial-specialization
+-Winvalid-pch
+-Winvalid-pp-token
+-Winvalid-source-encoding
+-Winvalid-static-assert-message
+-Winvalid-token-paste
+-Winvalid-unevaluated-string
+-Wjump-seh-finally
+-Wkeyword-compat
+-Wknr-promoted-parameter
+-Wlarge-by-value-copy
+-Wliblto
+-Wlinker-warnings
+-Wlocal-type-template-args
+  -Wc++98-compat-local-type-template-args
+-Wloop-analysis
+  -Wfor-loop-analysis
+  -Wrange-loop-analysis
+    -Wrange-loop-construct
+    -Wrange-loop-bind-reference
+-Wmain
+-Wmain-return-type
+-Wmalformed-warning-check
+-Wmany-braces-around-scalar-init
+-Wmathematical-notation-identifier-extension
+-Wmax-tokens
+-Wmax-unsigned-zero
+-Wmemsize-comparison
+-Wmethod-signatures
+-Wmicrosoft
+  -Wmicrosoft-charize
+  -Wmicrosoft-drectve-section
+  -Wmicrosoft-include
+  -Wmicrosoft-cpp-macro
+  -Wmicrosoft-fixed-enum
+  -Wmicrosoft-sealed
+  -Wmicrosoft-abstract
+  -Wmicrosoft-unqualified-friend
+  -Wmicrosoft-exception-spec
+  -Wmicrosoft-using-decl
+  -Wmicrosoft-mutable-reference
+  -Wmicrosoft-pure-definition
+  -Wmicrosoft-union-member-reference
+  -Wmicrosoft-explicit-constructor-call
+  -Wmicrosoft-enum-value
+  -Wmicrosoft-default-arg-redefinition
+  -Wmicrosoft-template
+    -Wmicrosoft-template-shadow
+  -Wmicrosoft-redeclare-static
+  -Wmicrosoft-enum-forward-reference
+  -Wmicrosoft-goto
+  -Wmicrosoft-flexible-array
+  -Wmicrosoft-extra-qualification
+  -Wmicrosoft-cast
+  -Wmicrosoft-const-init
+  -Wmicrosoft-void-pseudo-dtor
+  -Wmicrosoft-anon-tag
+  -Wmicrosoft-comment-paste
+  -Wmicrosoft-end-of-file
+  -Wmicrosoft-static-assert
+  -Wmicrosoft-init-from-predefined
+  -Wmicrosoft-string-literal-from-predefined
+  -Winconsistent-dllimport
+-Wmicrosoft-exists
+-Wmicrosoft-inaccessible-base
+-Wmisexpect
+-Wmismatched-new-delete
+-Wmismatched-parameter-types
+-Wmismatched-return-types
+-Wmissing-constinit
+-Wmissing-declarations
+-Wmissing-exception-spec
+-Wmissing-format-attribute
+-Wmissing-include-dirs
+-Wmissing-multilib
+-Wmissing-noescape
+-Wmissing-noreturn
+-Wmissing-prototype-for-cc
+-Wmissing-prototypes
+-Wmissing-selector-name
+-Wmissing-sysroot
+-Wmissing-template-arg-list-after-template-kw
+-Wmissing-variable-declarations
+-Wmisspelled-assumption
+-Wmix-packoffset
+-Wmodule-build
+-Wmodule-conflict
+-Wmodule-file-config-mismatch
+-Wmodule-file-extension
+-Wmodule-import
+-Wmodule-import-in-extern-c
+-Wmodule-include-translation
+-Wmodule-lock
+-Wmodules-ambiguous-internal-linkage
+-Wmodules-import-nested-redundant
+-Wmsvc-include
+  -Wmicrosoft-include
+-Wmsvc-not-found
+-Wmulti-gpu
+-Wmultiple-move-vbase
+-Wnan-infinity-disabled
+-Wnarrowing
+  -Wc++11-narrowing
+    -Wc++11-narrowing-const-reference
+-Wnested-externs
+-Wnew-returns-null
+-Wnewline-eof
+-Wnoderef
+-Wnoexcept-type
+  -Wc++17-compat-mangling
+-Wnon-c-typedef-for-linkage
+-Wnon-gcc
+  -Wsign-compare
+  -Wconversion
+    -Wbool-conversion
+      -Wpointer-bool-conversion
+      -Wundefined-bool-conversion
+    -Wconstant-conversion
+      -Wbitfield-constant-conversion
+        -Wsingle-bit-bitfield-constant-conversi
+on
+      -Wobjc-bool-constant-conversion
+    -Wenum-conversion
+      -Wenum-enum-conversion
+        -Wdeprecated-enum-enum-conversion
+      -Wenum-float-conversion
+        -Wdeprecated-enum-float-conversion
+      -Wenum-compare-conditional
+        -Wdeprecated-enum-compare-conditional
+    -Wbitfield-enum-conversion
+    -Wfloat-conversion
+      -Wfloat-overflow-conversion
+      -Wfloat-zero-conversion
+    -Wint-conversion
+    -Wimplicit-int-conversion
+      -Wshorten-64-to-32
+      -Wobjc-signed-char-bool-implicit-int-conv
+ersion
+    -Wimplicit-float-conversion
+      -Wimplicit-int-float-conversion
+        -Wimplicit-const-int-float-conversion
+      -Wobjc-signed-char-bool-implicit-float-co
+nversion
+    -Wliteral-conversion
+    -Wnon-literal-null-conversion
+    -Wnull-conversion
+    -Wobjc-literal-conversion
+    -Wsign-conversion
+    -Wstring-conversion
+  -Wliteral-range
+-Wnon-power-of-two-alignment
+-Wnonportable-cfstrings
+-Wnonportable-include-path
+-Wnonportable-private-apinotes-path
+-Wnonportable-private-system-apinotes-path
+-Wnonportable-system-include-path
+-Wnonportable-vector-initialization
+-Wnsconsumed-mismatch
+-Wnsreturns-mismatch
+-Wnull-arithmetic
+-Wnull-character
+-Wnull-dereference
+-Wnullability
+-Wnullability-completeness
+  -Wnullability-completeness-on-arrays
+-Wnullability-declspec
+-Wnullability-inferred-on-nested-type
+-Wnullable-to-nonnull-conversion
+-Wnvcc-compat
+-Wobjc-autosynthesis-property-ivar-name-match
+-Wobjc-boxing
+-Wobjc-circular-container
+-Wobjc-cocoa-api
+  -Wobjc-redundant-api-use
+    -Wobjc-redundant-literal-use
+-Wobjc-dictionary-duplicate-keys
+-Wobjc-duplicate-category-definition
+-Wobjc-forward-class-redefinition
+-Wobjc-interface-ivars
+-Wobjc-literal-compare
+  -Wobjc-string-compare
+-Wobjc-macro-redefinition
+-Wobjc-messaging-id
+-Wobjc-method-access
+-Wobjc-missing-property-synthesis
+-Wobjc-multiple-method-names
+-Wobjc-noncopy-retain-block-property
+-Wobjc-nonunified-exceptions
+-Wobjc-property-assign-on-object-type
+-Wobjc-property-implementation
+-Wobjc-property-implicit-mismatch
+-Wobjc-property-matches-cocoa-ownership-rule
+-Wobjc-property-no-attribute
+-Wobjc-property-synthesis
+-Wobjc-protocol-method-implementation
+-Wobjc-protocol-property-synthesis
+-Wobjc-protocol-qualifiers
+-Wobjc-readonly-with-setter-property
+-Wobjc-root-class
+-Wobjc-signed-char-bool
+  -Wobjc-signed-char-bool-implicit-int-conversi
+on
+  -Wobjc-signed-char-bool-implicit-float-conver
+sion
+  -Wobjc-bool-constant-conversion
+  -Wtautological-objc-bool-compare
+-Wobjc-string-concatenation
+-Wobjc-unsafe-perform-selector
+-Wodr
+-Wold-style-cast
+-Wold-style-definition
+-Wopenacc
+  -Wsource-uses-openacc
+-Wopenacc-deprecated-clause-alias
+-Wopenacc-self-if-potential-conflict
+-Wopencl-unsupported-rgba
+-Wopenmp
+  -Wsource-uses-openmp
+  -Wopenmp-clauses
+  -Wopenmp-loop-form
+  -Wopenmp-target
+    -Wopenmp-mapping
+  -Wopenmp-mapping
+  -Wopenmp-51-extensions
+  -Wopenmp-extensions
+  -Wopenmp-target-exception
+-Woption-ignored
+-Wordered-compare-function-pointers
+-Wout-of-line-declaration
+-Wout-of-scope-function
+-Wover-aligned
+-Woverflow
+-Woverride-init
+  -Winitializer-overrides
+-Woverride-module
+-Woverriding-method-mismatch
+-Woverriding-option
+-Wpacked
+  -Wpacked-non-pod
+-Wpadded
+  -Wpadded-bitfield
+-Wpartial-availability
+  -Wunguarded-availability
+    -Wunguarded-availability-new
+-Wpass
+-Wpass-analysis
+-Wpass-failed
+-Wpass-missed
+-Wpch-date-time
+-Wpch-vfs-diff
+-Wpedantic
+  -Wbit-int-extension
+  -Wc2y-extensions
+  -Wc11-extensions
+  -Wc++11-extra-semi
+  -Wc++11-long-long
+  -Wc++14-attribute-extensions
+  -Wc++14-binary-literal
+  -Wc++17-attribute-extensions
+  -Wc++20-attribute-extensions
+  -Wc++20-designator
+  -Wflexible-array-extensions
+  -Wfuture-attribute-extensions
+    -Wc++14-attribute-extensions
+    -Wc++17-attribute-extensions
+    -Wc++20-attribute-extensions
+    -Wc++23-attribute-extensions
+  -Wgnu-anonymous-struct
+  -Wgnu-auto-type
+  -Wgnu-case-range
+  -Wgnu-complex-integer
+  -Wgnu-compound-literal-initializer
+  -Wgnu-conditional-omitted-operand
+  -Wgnu-empty-struct
+  -Wgnu-flexible-array-initializer
+  -Wgnu-flexible-array-union-member
+  -Wgnu-imaginary-constant
+  -Wgnu-include-next
+  -Wgnu-label-as-value
+  -Wgnu-line-marker
+  -Wgnu-null-pointer-arithmetic
+  -Wgnu-pointer-arith
+  -Wgnu-redeclared-enum
+  -Wgnu-statement-expression
+    -Wgnu-statement-expression-from-macro-expan
+sion
+  -Wgnu-union-cast
+  -Wgnu-zero-line-directive
+  -Wgnu-zero-variadic-macro-arguments
+  -Wkeyword-macro
+  -Wlong-long
+    -Wc++11-long-long
+  -Wmicrosoft-charize
+  -Wmicrosoft-comment-paste
+  -Wmicrosoft-cpp-macro
+  -Wmicrosoft-end-of-file
+  -Wmicrosoft-enum-value
+  -Wmicrosoft-fixed-enum
+  -Wmicrosoft-flexible-array
+  -Wmicrosoft-redeclare-static
+  -Woverlength-strings
+  -Wzero-length-array
+  -Wdollar-in-identifier-extension
+  -Wlanguage-extension-token
+  -Winvalid-utf8
+  -Wdelimited-escape-sequence-extension
+  -Wimport-preprocessor-directive-pedantic
+  -Wembedded-directive
+  -Wempty-translation-unit
+  -Wnullability-extension
+  -Wfixed-enum-extension
+  -Wauto-decl-extensions
+  -Wundefined-internal-type
+  -Wretained-language-linkage
+  -Wcomplex-component-init
+  -Wnested-anon-types
+-Wpedantic-core-features
+-Wpedantic-macros
+  -Wdeprecated-pragma
+  -Wmacro-redefined
+  -Wbuiltin-macro-redefined
+  -Wrestrict-expansion
+  -Wfinal-macro
+-Wpointer-arith
+  -Wgnu-pointer-arith
+-Wpointer-compare
+-Wpointer-integer-compare
+-Wpointer-sign
+-Wpointer-to-int-cast
+  -Wpointer-to-enum-cast
+    -Wvoid-pointer-to-enum-cast
+  -Wvoid-pointer-to-int-cast
+    -Wvoid-pointer-to-enum-cast
+-Wpointer-type-mismatch
+-Wpoison-system-directories
+-Wpragma-once-outside-header
+-Wpragma-system-header-outside-header
+-Wpragmas
+  -Wunknown-pragmas
+  -Wignored-pragmas
+    -Wignored-pragma-intrinsic
+    -Wignored-pragma-optimize
+  -Wpragma-clang-attribute
+  -Wpragma-pack
+    -Wpragma-pack-suspicious-include
+-Wpre-c++2c-compat
+  -Wpre-c++26-compat
+-Wpre-c++2c-compat-pedantic
+  -Wpre-c++26-compat-pedantic
+    -Wpre-c++26-compat
+-Wpre-c11-compat-pedantic
+  -Wpre-c11-compat
+-Wpre-c2x-compat
+  -Wpre-c23-compat
+-Wpre-c2x-compat-pedantic
+  -Wpre-c23-compat-pedantic
+    -Wpre-c23-compat
+-Wpre-c2y-compat-pedantic
+  -Wpre-c2y-compat
+-Wpre-openmp-51-compat
+-Wpredefined-identifier-outside-function
+-Wprivate-header
+-Wprivate-module
+-Wprofile-instr-missing
+-Wprofile-instr-out-of-date
+-Wprofile-instr-unprofiled
+-Wproperty-access-dot-syntax
+-Wproperty-attribute-mismatch
+-Wprotocol
+-Wprotocol-property-synthesis-ambiguity
+-Wpsabi
+-Wptrauth-null-pointers
+-Wqualified-void-return-type
+-Wquoted-include-in-framework-header
+-Wread-only-types
+-Wreadonly-iboutlet-property
+-Wreceiver-expr
+-Wreceiver-forward-class
+-Wredundant-consteval-if
+-Wredundant-decls
+-Wredundant-parens
+-Wregister
+  -Wdeprecated-register
+-Wreinterpret-base-class
+-Wremark-backend-plugin
+-Wrequires-super-attribute
+-Wreserved-id-macro
+  -Wreserved-macro-identifier
+-Wreserved-identifier
+  -Wreserved-macro-identifier
+  -Wreserved-module-identifier
+  -Wuser-defined-literals
+-Wreserved-user-defined-literal
+  -Wc++11-compat-reserved-user-defined-literal
+-Wreturn-local-addr
+  -Wreturn-stack-address
+-Wrewrite-not-bool
+-Wround-trip-cc1-args
+-Wrtti
+-Wsanitize-address
+-Wsarif-format-unstable
+-Wsearch-path-usage
+-Wsection
+-Wselector
+  -Wselector-type-mismatch
+-Wsentinel
+-Wsequence-point
+  -Wunsequenced
+-Wserialized-diagnostics
+-Wshadow-all
+  -Wshadow
+    -Wshadow-field-in-constructor-modified
+    -Wshadow-ivar
+  -Wshadow-field-in-constructor
+    -Wshadow-field-in-constructor-modified
+  -Wshadow-uncaptured-local
+  -Wshadow-field
+-Wshift-count-negative
+-Wshift-count-overflow
+-Wshift-negative-value
+-Wshift-overflow
+-Wshift-sign-overflow
+-Wsign-promo
+-Wsigned-enum-bitfield
+-Wsigned-unsigned-wchar
+-Wsizeof-array-div
+-Wsizeof-pointer-div
+-Wslash-u-filename
+-Wslh-asm-goto
+-Wsloc-usage
+-Wsource-mgr
+-Wspirv-compat
+  -Wspir-compat
+-Wstack-exhausted
+-Wstack-protector
+-Wstatic-float-init
+  -Wgnu-static-float-init
+-Wstatic-in-inline
+-Wstatic-inline-explicit-instantiation
+-Wstatic-local-in-inline
+-Wstdlibcxx-not-found
+-Wstrict-aliasing
+-Wstrict-aliasing=0
+-Wstrict-aliasing=1
+-Wstrict-aliasing=2
+-Wstrict-overflow
+-Wstrict-overflow=0
+-Wstrict-overflow=1
+-Wstrict-overflow=2
+-Wstrict-overflow=3
+-Wstrict-overflow=4
+-Wstrict-overflow=5
+-Wstrict-potentially-direct-selector
+  -Wpotentially-direct-selector
+-Wstrict-primary-template-shadow
+-Wstrict-prototypes
+  -Wdeprecated-non-prototype
+-Wstrict-selector-match
+-Wstring-plus-char
+-Wstrlcpy-strlcat-size
+-Wstrncat-size
+-Wsuggest-destructor-override
+-Wsuggest-override
+-Wsuper-class-method-mismatch
+-Wsuspicious-memaccess
+  -Wsizeof-pointer-memaccess
+  -Wdynamic-class-memaccess
+  -Wnontrivial-memaccess
+  -Wmemset-transposed-args
+  -Wsuspicious-bzero
+-Wswift-name-attribute
+-Wswitch-default
+-Wswitch-enum
+-Wsync-alignment
+-Wsync-fetch-and-nand-semantics-changed
+-Wsynth
+-Wtautological-constant-in-range-compare
+  -Wtype-limits
+    -Wtautological-type-limit-compare
+    -Wtautological-unsigned-zero-compare
+    -Wtautological-unsigned-char-zero-compare
+    -Wtautological-unsigned-enum-zero-compare
+  -Wtautological-value-range-compare
+-Wtcb-enforcement
+-Wtemplate-in-declaration-name
+-Wtentative-definition-array
+-Wtentative-definition-incomplete-type
+-Wthread-safety
+  -Wthread-safety-attributes
+  -Wthread-safety-analysis
+  -Wthread-safety-precise
+  -Wthread-safety-reference
+    -Wthread-safety-reference-return
+-Wthread-safety-beta
+-Wthread-safety-negative
+-Wthread-safety-verbose
+-Wtype-safety
+-Wtypedef-redefinition
+-Wtypename-missing
+-Wunable-to-open-stats-file
+-Wunaligned-access
+-Wunaligned-qualifier-implicit-cast
+-Wunavailable-declarations
+-Wundeclared-selector
+-Wundef
+-Wundef-prefix
+-Wundefined-arm-za
+-Wundefined-arm-zt0
+-Wundefined-func-template
+-Wundefined-inline
+-Wundefined-internal
+-Wundefined-reinterpret-cast
+-Wundefined-var-template
+-Wunderaligned-exception-object
+-Wunicode
+-Wunicode-homoglyph
+-Wunicode-whitespace
+-Wunicode-zero-width
+-Wunknown-argument
+-Wunknown-assumption
+-Wunknown-cuda-version
+-Wunknown-directives
+-Wunknown-escape-sequence
+-Wunknown-sanitizers
+-Wunknown-warning-option
+-Wunnamed-type-template-args
+  -Wc++98-compat-unnamed-type-template-args
+-Wunqualified-std-cast-call
+-Wunreachable-code-aggressive
+  -Wunreachable-code
+    -Wunreachable-code-loop-increment
+    -Wunreachable-code-fallthrough
+    -Wunreachable-code-generic-assoc
+  -Wunreachable-code-break
+  -Wunreachable-code-return
+-Wunsafe-buffer-usage
+  -Wunsafe-buffer-usage-in-container
+-Wunsupported-abi
+-Wunsupported-abs
+-Wunsupported-availability-guard
+-Wunsupported-cb
+-Wunsupported-dll-base-class-template
+-Wunsupported-floating-point-opt
+-Wunsupported-friend
+-Wunsupported-gpopt
+-Wunsupported-nan
+-Wunsupported-target-opt
+-Wunsupported-visibility
+-Wunusable-partial-specialization
+-Wunused-command-line-argument
+-Wunused-exception-parameter
+-Wunused-getter-return-value
+-Wunused-local-typedefs
+  -Wunused-local-typedef
+-Wunused-macros
+-Wunused-member-function
+  -Wunneeded-member-function
+-Wunused-template
+  -Wunneeded-internal-declaration
+-Wunused-volatile-lvalue
+-Wused-but-marked-unused
+-Wvarargs
+-Wvariadic-macros
+-Wvec-elem-size
+-Wvector-conversions
+  -Wvector-conversion
+-Wvexing-parse
+-Wvisibility
+-Wvla
+  -Wvla-extension
+    -Wvla-cxx-extension
+      -Wvla-extension-static-assert
+-Wvoid-ptr-dereference
+-Wwasm-exception-spec
+-Wweak-template-vtables
+-Wweak-vtables
+-Wwrite-strings
+  -Wwritable-strings
+    -Wdeprecated-writable-strings
+      -Wc++11-compat-deprecated-writable-string
+s
+-Wxor-used-as-pow
+-Wzero-as-null-pointer-constant
+~ $
